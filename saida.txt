@@ -1,0 +1,60 @@
+Epoch 1/10
+118/118 [==============================] - 45s 376ms/step - loss: 0.5250 - accuracy: 0.8380 - val_loss: 0.5213 - val_accuracy: 0.6755
+Epoch 2/10
+118/118 [==============================] - 48s 403ms/step - loss: 0.2663 - accuracy: 0.8947 - val_loss: 0.7783 - val_accuracy: 0.6322
+Epoch 3/10
+118/118 [==============================] - 45s 380ms/step - loss: 0.2407 - accuracy: 0.9018 - val_loss: 0.5837 - val_accuracy: 0.6659
+Epoch 4/10
+118/118 [==============================] - 46s 385ms/step - loss: 0.2150 - accuracy: 0.9175 - val_loss: 0.3639 - val_accuracy: 0.8558
+Epoch 5/10
+118/118 [==============================] - 44s 368ms/step - loss: 0.2124 - accuracy: 0.9162 - val_loss: 0.7088 - val_accuracy: 0.7524
+Epoch 6/10
+118/118 [==============================] - 45s 381ms/step - loss: 0.2010 - accuracy: 0.9183 - val_loss: 0.3356 - val_accuracy: 0.8678
+Epoch 7/10
+118/118 [==============================] - 46s 392ms/step - loss: 0.1887 - accuracy: 0.9249 - val_loss: 0.4677 - val_accuracy: 0.8438
+Epoch 8/10
+118/118 [==============================] - 45s 377ms/step - loss: 0.1950 - accuracy: 0.9278 - val_loss: 0.4542 - val_accuracy: 0.8654
+Epoch 9/10
+118/118 [==============================] - 46s 390ms/step - loss: 0.1773 - accuracy: 0.9283 - val_loss: 0.4705 - val_accuracy: 0.8486
+Epoch 10/10
+118/118 [==============================] - 46s 390ms/step - loss: 0.1805 - accuracy: 0.9346 - val_loss: 0.3744 - val_accuracy: 0.8798
+<keras.callbacks.History object at 0x0000017FF162EFD0>
+
+
+
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d (Conv2D)             (None, 62, 62, 64)        1792
+
+ batch_normalization (BatchN  (None, 62, 62, 64)       256
+ ormalization)
+
+ max_pooling2d (MaxPooling2D  (None, 31, 31, 64)       0
+ )
+
+ flatten (Flatten)           (None, 61504)             0
+
+ dense (Dense)               (None, 128)               7872640
+
+ dropout (Dropout)           (None, 128)               0
+
+ dense_1 (Dense)             (None, 128)               16512
+
+ dropout_1 (Dropout)         (None, 128)               0
+
+ dense_2 (Dense)             (None, 1)                 129
+
+=================================================================
+Total params: 7,891,329
+Trainable params: 7,891,201
+Non-trainable params: 128
+_________________________________________________________________
+
+RESULTADO VALIDAÇÃO
+
+Normal:
+Probabilidade de ter Pneumonia: 0.1 %
+
+Doente:
+Probabilidade de ter Pneumonia: 89.4 %
