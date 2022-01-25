@@ -2,10 +2,11 @@ Este projeto tem o objetivo de criar uma Rede Neural Convolucinal em conjunto co
 
 Dataset: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
-
 RESULTADO:
-
-loss: 0.1805 - accuracy: 0.9346 - val_loss: 0.3744 - val_accuracy: 0.8798
+loss: 0.1805
+accuracy: 0.9346
+val_loss: 0.3744
+val_accuracy: 0.8798
 
 _________________________________________________________________
  Layer (type)                Output Shape              Param #
@@ -36,13 +37,10 @@ Trainable params: 7,891,201
 Non-trainable params: 128
 
 
-RESULTADO VALIDAÇÃO
+RESULTADO VALIDAÇÃO:
 
 Normal:
 Probabilidade de ter Pneumonia: 0.1 %
-
-![alt text](C:\Users\brunovos\Bruno\Github\pneumonia\Deteccao-de-Pneumonia\val\real_pneumonia.jpeg)
-
 
 Doente:
 Probabilidade de ter Pneumonia: 89.4 %
