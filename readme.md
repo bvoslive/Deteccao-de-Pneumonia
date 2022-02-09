@@ -1,4 +1,29 @@
-Este projeto tem o objetivo de criar uma Rede Neural Convolucinal em conjunto com uma base de dados de amostras de imagens Raio-X contendo a região tórax para predição de pacientes com pneumonia
+
+# Detecção de Pneumonia
+
+Este projeto faz parte do desafio do Kaggle cujo os dados estão disponíveis em https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia.
+
+## Objetivo
+
+Este projeto tem o objetivo de criar uma Rede Neural Convolucinal em conjunto com uma base de dados de amostras de imagens Raio-X contendo a região tórax para predição de pacientes com pneumonia.
+
+--Status do Projeto: On-Hold
+
+## Métodos Usados
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Dataset: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
@@ -8,9 +33,9 @@ accuracy: 0.9346
 val_loss: 0.3744
 val_accuracy: 0.8798
 
-_________________________________________________________________
+#_________________________________________________________________
  Layer (type)                Output Shape              Param #
-=================================================================
+#=================================================================
  conv2d (Conv2D)             (None, 62, 62, 64)        1792
 
  batch_normalization (BatchN  (None, 62, 62, 64)       256
