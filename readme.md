@@ -11,7 +11,9 @@ Este projeto tem o objetivo de criar uma Rede Neural Convolucinal em conjunto co
 
 ## Métodos Usados
 
-
+* Redes Neurais Convolucionais
+* Data Augmentation
+* 
 
 
 
