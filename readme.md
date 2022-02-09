@@ -13,9 +13,13 @@ Este projeto tem o objetivo de criar uma Rede Neural Convolucinal em conjunto co
 
 * Redes Neurais Convolucionais
 * Data Augmentation
-* 
 
+## Tecnologias
 
+* Python
+* Keras
+
+## Começando
 
 
 
