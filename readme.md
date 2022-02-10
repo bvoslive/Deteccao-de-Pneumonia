@@ -19,11 +19,13 @@ Este projeto tem o objetivo de criar uma Rede Neural Convolucinal em conjunto co
 * Python
 * Keras
 
-## Getting Started
+## Dados
 
-Clone this repo git clone https://github.com/bvoslive/Deteccao-de-Pneumonia.git
+Clone this repo `git clone https://github.com/bvoslive/Deteccao-de-Pneumonia.git`
 
+## Contato
 
+https://www.linkedin.com/in/bruno-vinicius-souza/
 
 
 
