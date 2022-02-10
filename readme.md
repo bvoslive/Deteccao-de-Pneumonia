@@ -33,6 +33,12 @@ https://www.linkedin.com/in/bruno-vinicius-souza/
 
 
 
+
+
+
+
+
+
 Dataset: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 RESULTADO:
