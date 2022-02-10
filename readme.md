@@ -19,7 +19,38 @@ Este projeto tem o objetivo de criar uma Rede Neural Convolucinal em conjunto co
 * Python
 * Keras
 
-## Dados
+## Descrição da Rede Neural
+
+*****************************************************************
+ Layer (type)                Output Shape              Param #
+*****************************************************************
+ conv2d (Conv2D)             (None, 62, 62, 64)        1792
+
+ batch_normalization (BatchN  (None, 62, 62, 64)       256
+ ormalization)
+
+ max_pooling2d (MaxPooling2D  (None, 31, 31, 64)       0
+ )
+
+ flatten (Flatten)           (None, 61504)             0
+
+ dense (Dense)               (None, 128)               7872640
+
+ dropout (Dropout)           (None, 128)               0
+
+ dense_1 (Dense)             (None, 128)               16512
+
+ dropout_1 (Dropout)         (None, 128)               0
+
+ dense_2 (Dense)             (None, 1)                 129
+
+
+## Resultados
+
+loss: 0.1805
+accuracy: 0.9346
+val_loss: 0.3744
+val_accuracy: 0.8798
 
 Clone this repo `git clone https://github.com/bvoslive/Deteccao-de-Pneumonia.git`
 
@@ -42,14 +73,10 @@ https://www.linkedin.com/in/bruno-vinicius-souza/
 Dataset: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 RESULTADO:
-loss: 0.1805
-accuracy: 0.9346
-val_loss: 0.3744
-val_accuracy: 0.8798
 
-#_________________________________________________________________
+*****************************************************************
  Layer (type)                Output Shape              Param #
-#=================================================================
+*****************************************************************
  conv2d (Conv2D)             (None, 62, 62, 64)        1792
 
  batch_normalization (BatchN  (None, 62, 62, 64)       256
